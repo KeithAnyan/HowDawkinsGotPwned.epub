@@ -1,7 +1,7 @@
 
 ALL : HowDawkinsGotPwned.epub HowDawkinsGotPwned.mobi HowDawkinsGotPwned.pdf
 
-HowDawkinsGotPwned.epub : epub
+HowDawkinsGotPwned.epub : 
 	rm -f HowDawkinsGotPwned.epub
 	zip -X0 HowDawkinsGotPwned.epub mimetype
 	zip -Xur9D HowDawkinsGotPwned.epub META-INF/* OEBPS/*

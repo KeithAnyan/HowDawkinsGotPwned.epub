@@ -3,7 +3,8 @@
 	font-family: Georgia, Serif;
 }
 
-header {
+header,
+footer {
 	text-align: center;
 }
 
